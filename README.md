@@ -20,7 +20,6 @@ Template
 
 quantity = 15
 
-# your code here
 Challenge 1: Jagged Output
 
 Output should come in rows of five elements. Running the program with quantity set to fifteen would output the following:
