@@ -10,8 +10,7 @@ class Fibber
        fibo_ray << sum
        a = b
        b = sum
-      end
-    
+      end    
     fibo_ray
   end
 
@@ -38,7 +37,6 @@ class Fibber
     puts " #{c[0]}   #{c[1]}  #{c[2]}  #{c[3]}  #{c[4]}"
     puts "#{d[0]}  #{d[1]} #{d[2]} #{d[3]} #{d[4]}"
   end
-
 end
 
 fibber = Fibber.new
