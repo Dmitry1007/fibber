@@ -1,5 +1,3 @@
-require 'pry'
-
 class Fibber
 
   def fiberize(quantity)
@@ -46,6 +44,5 @@ end
 fibber = Fibber.new
 fibo = fibber.fiberize(20)
 fibber.jagged_output(fibo)
-
 fibber.better_fancy_output(fibo)
 
