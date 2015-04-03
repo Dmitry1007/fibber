@@ -17,4 +17,16 @@ class FibberTest < Minitest::Test
     assert_equal [0,1,1,2], fibber.fiberize(4)
   end
 
+  def test_it_adds_two_previous_numbers_and_adds_sum_to_array
+    assert_equal [0,1,1,2,3], fibber.fiberize(5)
+    assert_equal [0,1,1,2,3,5,8,13,21,34], fibber.fiberize(10)
+    assert_equal [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377], fibber.fiberize(15)
+  end
+
+  def test_it_prints_first_row_of_5_elemets
+    skip
+    fibo = fibber.fiberize(15)
+    assert_equal [0, 1, 1, 2, 3], fibber.jagged_output(fibo)
+  end
+
 end
