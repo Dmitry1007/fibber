@@ -10,7 +10,7 @@ class Fibber
        fibo_ray << sum
        a = b
        b = sum
-      end    
+      end
     fibo_ray
   end
 
@@ -40,7 +40,7 @@ class Fibber
 end
 
 fibber = Fibber.new
-fibo = fibber.fiberize(20)
-fibber.jagged_output(fibo)
+fibo = fibber.fiberize(15)
+# fibber.jagged_output(fibo)
 fibber.better_fancy_output(fibo)
 
