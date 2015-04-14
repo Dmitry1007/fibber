@@ -13,3 +13,4 @@ fibo.each.with_index do |num,index|
   print "\n" if (index + 1) % 5 == 0
 end
 
+
